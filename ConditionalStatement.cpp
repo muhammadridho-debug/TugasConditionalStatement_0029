@@ -31,4 +31,10 @@ int main()
 {
     float hasil_bmi, bb, tb;
     string status_badan;
+    
+    input(bb, tb);
+   
+    hasil_bmi = bmi(bb, tb);
+
+    status_badan = status_bmi(hasil_bmi);
 }
