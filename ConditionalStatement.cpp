@@ -37,4 +37,8 @@ int main()
     hasil_bmi = bmi(bb, tb);
 
     status_badan = status_bmi(hasil_bmi);
+
+    cout << "--- Hasil ---" << endl;
+    cout << "BMI Anda : " << hasil_bmi << endl;
+    cout << "Status : " << status_badan << endl;
 }
