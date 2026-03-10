@@ -9,3 +9,8 @@ void input(float &a, float &b)
     cout << "Masukkan Tinggi badan (meter) : ";
     cin >> b;
 }
+
+float bmi (float a, float b)
+{
+    return a/(b * b);
+}
